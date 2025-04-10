@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BUSL-1.1
 
-pragma solidity 0.8.20;
+pragma solidity 0.8.29;
 
 // Based on https://github.com/Uniswap/universal-router/blob/main/contracts/libraries/Commands.sol
 

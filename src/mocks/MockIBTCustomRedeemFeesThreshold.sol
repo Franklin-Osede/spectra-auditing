@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Unlicensed
 
-pragma solidity 0.8.20;
+pragma solidity 0.8.29;
 
 import "./MockERC4626Custom.sol";
 import "../interfaces/IMockToken.sol";
