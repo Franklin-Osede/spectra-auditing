@@ -2,7 +2,7 @@
 // OpenZeppelin Contracts (last updated v5.0.0) (proxy/transparent/ProxyAdmin.sol)
 // Modified by Spectra to use AccessManager instead of Ownable for access control
 
-pragma solidity 0.8.29;
+pragma solidity 0.8.20;
 
 import {IAMTransparentUpgradeableProxy} from "./AMTransparentUpgradeableProxy.sol";
 import "openzeppelin-contracts/access/manager/AccessManaged.sol";

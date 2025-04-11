@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BUSL-1.1
 
-pragma solidity 0.8.29;
+pragma solidity 0.8.20;
 
 import "../interfaces/IRateAdjustmentOracle.sol";
 import "openzeppelin-math/Math.sol";

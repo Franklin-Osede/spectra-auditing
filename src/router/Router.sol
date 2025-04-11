@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BUSL-1.1
 
-pragma solidity 0.8.29;
+pragma solidity 0.8.20;
 
 import {Math} from "openzeppelin-math/Math.sol";
 import {IERC3156FlashBorrower} from "openzeppelin-contracts/interfaces/IERC3156FlashBorrower.sol";

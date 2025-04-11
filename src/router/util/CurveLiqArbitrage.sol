@@ -1,4 +1,4 @@
-pragma solidity 0.8.29;
+pragma solidity 0.8.20;
 
 import {Math} from "openzeppelin-math/Math.sol";
 import {IERC20Metadata} from "openzeppelin-contracts/token/ERC20/extensions/IERC20Metadata.sol";
