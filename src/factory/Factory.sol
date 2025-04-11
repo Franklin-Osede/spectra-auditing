@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.29;
 
-import "openzeppelizn-math/Math.sol";
+import "openzeppelin-math/Math.sol";
 import "openzeppelin-contracts/access/manager/IAccessManager.sol";
 import "openzeppelin-contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol";
 import "openzeppelin-contracts/proxy/beacon/BeaconProxy.sol";
