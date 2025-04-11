@@ -2,17 +2,19 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
-solc = "0.8.20"
+solc = "0.8.29"
 evm_version = "shanghai"
 gas_reports = ["*"]
-remappings = ["openzeppelin-erc20-basic/=lib/openzeppelin-contracts/contracts/token/ERC20/",
+remappings = [
+    "openzeppelin-erc20-basic/=lib/openzeppelin-contracts/contracts/token/ERC20/",
     "openzeppelin-math/=lib/openzeppelin-contracts-upgradeable/contracts/utils/math/",
     "openzeppelin-erc20/=lib/openzeppelin-contracts-upgradeable/contracts/token/ERC20/",
     "openzeppelin-erc20-extensions/=lib/openzeppelin-contracts-upgradeable/contracts/token/ERC20/extensions",
     "openzeppelin-utils/=lib/openzeppelin-contracts-upgradeable/contracts/utils/",
     "openzeppelin-proxy/=lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils",
     "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
-    "openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/"]
+    "openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+]
 
 [rpc_endpoints]
 sepolia = "${SEPOLIA_RPC_URL}"

@@ -7,8 +7,8 @@ import "../interfaces/IPrincipalToken.sol";
 import "../interfaces/IStableSwapNG.sol";
 import "../libraries/RateAdjustmentMath.sol";
 import "../libraries/RayMath.sol";
-import "openzeppelin-math/Math.sol";
-import "openzeppelin-contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol";
+import "lib/openzeppelin-contracts/contracts/utils/math/Math.sol";
+import "lib/openzeppelin-contracts-upgradeable/contracts/access/manager/AccessManagedUpgradeable.sol";
 
 contract RateAdjustmentOracle is AccessManagedUpgradeable, IRateAdjustmentOracle {
     using Math for uint256;
